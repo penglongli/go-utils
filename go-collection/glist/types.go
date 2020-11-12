@@ -19,7 +19,7 @@ type Interface interface {
 
 	RemoveIndex(index int)
 
-	Remove(e Element) bool
+	Remove(e Element)
 
 	Sort()
 

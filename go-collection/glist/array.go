@@ -122,7 +122,7 @@ func (array *Array) RemoveIndex(index int) {
 }
 
 // Removes the first occurrence of the specified element from this list, if it is present (optional operation).
-func (array *Array) Remove(e Element) bool {
+func (array *Array) Remove(e Element) {
 	if array.concurrent {
 		array.Lock()
 	}
